@@ -12,7 +12,8 @@ public class Member extends BaseIdAndTime {
     private String username;
     private String password;
     private String nickname;
-    private int activityScore;
+    @Column(nullable = false)
+    private int activityScore = 0;
 
     public Member(String username, String password, String nickname) {
         this.username = username;
