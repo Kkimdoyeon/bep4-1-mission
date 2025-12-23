@@ -1,6 +1,6 @@
-package com.back.entity;
+package com.back.boundedContext.member.entity;
 
-import com.back.jpa.entity.BaseIdAndTime;
+import com.back.global.jpa.entity.BaseIdAndTime;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.NoArgsConstructor;
@@ -12,8 +12,7 @@ public class Member extends BaseIdAndTime {
     private String username;
     private String password;
     private String nickname;
-    @Column(nullable = false)
-    private int activityScore = 0;
+    private int activityScore;
 
     public Member(String username, String password, String nickname) {
         this.username = username;
