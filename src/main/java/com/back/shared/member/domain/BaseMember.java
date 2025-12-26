@@ -1,4 +1,3 @@
-
 package com.back.shared.member.domain;
 
 import com.back.global.jpa.entity.BaseEntity;
