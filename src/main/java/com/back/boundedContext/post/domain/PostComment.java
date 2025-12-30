@@ -1,6 +1,5 @@
 package com.back.boundedContext.post.domain;
 
-
 import com.back.global.jpa.entity.BaseIdAndTime;
 import com.back.shared.post.dto.PostCommentDto;
 import jakarta.persistence.Column;

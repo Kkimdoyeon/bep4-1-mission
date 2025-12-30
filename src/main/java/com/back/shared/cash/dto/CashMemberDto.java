@@ -14,5 +14,4 @@ public class CashMemberDto {
     private final String username;
     private final String nickname;
     private final int activityScore;
-
 }

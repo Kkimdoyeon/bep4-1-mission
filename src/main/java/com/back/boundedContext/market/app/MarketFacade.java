@@ -96,7 +96,6 @@ public class MarketFacade {
     }
 
     @Transactional
-
     public void completeOrderPayment(int orderId) {
         marketCompleteOrderPaymentUseCase.completePayment(orderId);
     }
